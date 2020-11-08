@@ -4,6 +4,7 @@ package main
 import (
 	"fmt"
 	"github.com/bwmarrin/discordgo"
+	"github.com/corpix/uarand"
 	"math/rand"
 	"time"
 )
@@ -24,6 +25,7 @@ func main() {
 	}
 
 	dg, err := discordgo.New(token)
+	dg.UserAgent = uarand.GetRandom()
 	if err != nil {
 		fmt.Println("error creating Discord session: ", err)
 		return
