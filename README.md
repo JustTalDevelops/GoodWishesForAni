@@ -14,4 +14,4 @@ happening any more.
 
 Some say he was kidnapped. Some say he commit suicide. His only goal with the dev role in
 Developer Union, and now that he has it, he has no reason to live. The only way we can
-bring him back is by sending good vibes his way or removing him dev role. 
+bring him back is by sending good vibes his way or removing his dev role. 
